@@ -1,0 +1,106 @@
+*{padding:0;
+    margin:0}*
+    body{
+        background: red;
+    }
+    .card{
+        width: 400px;
+        height: 600px;
+        background: #21284f;
+        overflow:hidden;
+        margin:100px auto;
+        border-radius: 10px;
+    }
+    .card-footer{
+        height: 70%;
+    }
+    .pic{
+        width:100px;
+        height:100px;
+        border-radius:50%;
+        margin: auto;
+        margin-top: 27px;
+    }
+    .pic img{
+        max-width:100%;
+        max-height:100%;
+        border-radius:50%
+    }
+    .name{
+        margin: 19px 115px 15px;
+        color:white;
+        font-family: monospace;
+        font-size: 20px;
+    }
+    .designer {
+        margin: 15px 60px 17px;
+        font-family: monospace;
+        font-size: 20px;
+        color: #ca1754;
+    }
+    
+    .link {
+        
+        margin: 10px 53px 10px;
+    }
+    
+    .link a{
+        padding: 10px 22px 10px;
+        color: white;
+        font-size: 20px;
+        transition:all 0.3s
+    }
+    
+    .btn {
+        /* background: aqua; */
+        text-align: center;
+        margin-top: 48px;
+    }
+    
+    a.btn {
+        padding: 16px;
+        background: transparent;
+        font-family: monospace;
+        text-decoration: none;
+        font-size: 20px;
+        color: white;
+        border: 2px solid #ca1754;
+        border-radius: 32px;
+        color: #fff;
+        transition: all 0.3s;
+    }
+    
+    .heder-btn {
+        width: 350px;
+        /* background: aqua; */
+        margin: 42px auto;
+    }
+    .heder-read {
+        width: 30%;
+        display: inline-block;
+        padding: -3px;
+        margin: 10px 3px 10px;
+        text-align: center;
+        font-size: inherit;
+        border-right: 1px solid #5b284f;
+    }
+    
+    span {
+        display: block;
+        padding: 6px;
+        color: #ca1754;
+        font-size: 20px;
+    }
+    .a {
+        font-size: 35px;
+        font-family: sans-serif;
+        color: #fff;
+    }
+    a.btn:hover {
+        background: #E91E63;
+    transition: all 0.3s;}
+    
+    .link a:hover {
+        color: #ba1953;
+        transition: all 0.3s;
+    }
